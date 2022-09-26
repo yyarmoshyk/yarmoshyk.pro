@@ -1,0 +1,6 @@
+test
+src/public/*
+public/*
+_posts.bak/*
+.DS_Store
+account_details.sh
