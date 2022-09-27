@@ -1,6 +1,6 @@
 build-image:
 	docker build -t yyarmoshyk/agency-jekyll-theme:ruby-2.5-2 .
-	#docker push yyarmoshyk/agency-jekyll-theme:ruby-2.5-2
+	docker push yyarmoshyk/agency-jekyll-theme:ruby-2.5-2
 
 verify:
 	docker run --name jekyll-verify --rm -v "${PWD}/test:/myblog/test" -v "${PWD}/src:/myblog" yyarmoshyk/agency-jekyll-theme:ruby-2.5 /bin/bash -c "cd /myblog; bundle install; bundle exec jekyll build -d test"
