@@ -16,6 +16,11 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
+                            {% if post.content %}
+                            <div class="modal-content-text">
+                                {{ post.content }}
+                            </div>
+                            {% endif %}
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>

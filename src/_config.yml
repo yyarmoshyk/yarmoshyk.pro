@@ -1,6 +1,7 @@
 url: https://yyarmoshyk.github.io
 baseurl: /
 host: 0.0.0.0
+incremental: true
 
 # Site settings
 title: Yaroslav Yarmoshyk DevOps services
