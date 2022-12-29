@@ -13,7 +13,7 @@ then
   export AWS_SECRET_ACCESS_KEY=`cat /tmp/assumed_role |jq -r .Credentials.SecretAccessKey`
   export AWS_SESSION_TOKEN=`cat /tmp/assumed_role |jq -r .Credentials.SessionToken`
   rm -rf /tmp/assumed_role
-  aws s3 sync --acl public-read public/ s3://www.yarmoshyk.tk/ --delete
+  aws s3 sync --acl public-read public/ s3://yaroslav.yarmoshyk.pro/ --delete
 else
   echo "Current user can't assume role"
   exit 1
@@ -21,6 +21,6 @@ fi
 
 if [ "$current_user" == "arn:aws:iam::${AWS_ACCOUNT_ID}:role/${AWS_ROLE}" ]; then
   log "Can deploy files without assuming"
-  aws s3 sync --acl public-read public/ s3://www.yarmoshyk.tk/ --delete
+  aws s3 sync --acl public-read public/ s3://yaroslav.yarmoshyk.pro/ --delete
 fi
 log "Done"
