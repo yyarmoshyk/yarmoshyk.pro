@@ -9,11 +9,11 @@ email: y.yarmoshyk@gmail.com
 description: "DevOps evangelist, CI/CD practitioner, IaaC adept, fan of Kubernetes, Cloud expert, Mentor, DevOps team and process managerс"
 
 
-Team names, titles and social links
+# Team names, titles and social links
 people:
 - name: Yaroslav Yarmoshyk
   pic: 1
-  position: Solutions Architect
+  position: Solutions Architect, 
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/yaroslav-yarmoshyk/
