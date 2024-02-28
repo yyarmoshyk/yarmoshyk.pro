@@ -11,7 +11,7 @@
             {% for post in site.posts %}
                 {% if post.type == "service" %}
                 <div class="col-md-6">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#service{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa {{post.faicon}} fa-stack-1x fa-inverse"></i>
