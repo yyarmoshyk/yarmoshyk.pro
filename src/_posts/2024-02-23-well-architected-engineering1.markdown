@@ -12,9 +12,10 @@ type: service
 ---
 This project includes 2 phases.
 
-## Phase 1: Assessment
+### Phase 1: Assessment
 It includes 2-3 meetings where we collect information and present the report.
 During the meetings we will do the assessment of your existing cloud infrastructure to see how it complies with teh best practices from [AWS Well Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 
-## Phase 2: Assessment
+### Phase 2: Implementation
 Apply all the suggestions from the report.
+The price depends on the scope of improvements.
