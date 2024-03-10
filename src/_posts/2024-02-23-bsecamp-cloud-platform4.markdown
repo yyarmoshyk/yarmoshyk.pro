@@ -10,7 +10,11 @@ category: Cloud Engineering
 description: Order the AWS Cloud Platform based on the best practices
 type: service
 ---
-This is totally a custom quote to fit the needs of your workloads based on the best practices declared as [pillars AWS Well Architected framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html)
+AWS Well Architected Cloud Platform for greenfield software projects that start from scratch in an empty field. This service package also fits the needs of startups in the initial funding phases.
+
+It is being built based on the best practices declared as [pillars AWS Well Architected framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html)
+
+This package includes standard scope and can be exteded upon your needs with a custom quote.
 
 Our goal is to build secure, cost efficient and easy manageble environment for your business.
 
