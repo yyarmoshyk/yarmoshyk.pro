@@ -25,4 +25,4 @@ The scope includes but in not limited to the following:
 1. Balanced docker container orkestration with AWS ECS or AWS Managed Kubernetes Service (EKS).
 1. Advanced Kubernetes setup with minimal set of required controllers such as Karpenter, External Secrets, Ingress controller, that will fit the needs of your applications.
 1. Controll Tower, Web Application firewall and many more buzzwords from AWS world.
-1. Of cource there is always a room for customer quote to be discussed during 1-to-1 call with your architects.
+1. ... your custom quote to be discussed during 1-to-1 call.
