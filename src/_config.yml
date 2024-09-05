@@ -5,23 +5,23 @@ incremental: true
 
 # Site settings
 title: Yarmoshyk Pro DevOps services
-email: y.yarmoshyk@gmail.com
-description: "DevOps evangelist, CI/CD practitioner, IaaC adept, fan of Kubernetes, Cloud expert, Mentor, DevOps team and process managerс"
+email: yaroslav@yarmoshyk.pro
+description: "Cloud Expert, DevOps evangelist, CI/CD practitioner, IaaC adept, fan of Kubernetes"
 
 
 # Team names, titles and social links
 people:
 - name: Yaroslav Yarmoshyk
   pic: 1
-  position: Solutions Architect, 
+  position: CEO, Founder, Solutions Architect
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/yaroslav-yarmoshyk/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# social:
-#   - title: twitter
-#     url: http://twitter.com/jekyllrb
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/yarmoshyk-pro-devops-services/
 #   - title: facebook
 #     url:
 #   - title: stack-overflow
