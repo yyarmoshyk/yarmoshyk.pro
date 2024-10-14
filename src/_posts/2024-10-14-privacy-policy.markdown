@@ -3,9 +3,10 @@ title: Privacy Policy
 layout: default
 date: 2024-10-14
 faicon: fa-user-shield
+modal-id: 5
 alt: image-alt
 description: Privacy Policy
-type: service
+type: document
 ---
 
 Thank you for your interest in our services. This Privacy Policy outlines how Yarmoshyk PRO collects, uses, and protects the personal information you provide when filling out our LinkedIn Lead Generation form.
