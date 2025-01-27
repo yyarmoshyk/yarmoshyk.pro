@@ -1,4 +1,5 @@
-theme: jekyll-agency
+# theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
 url: https://yarmoshyk.pro
 baseurl: /
