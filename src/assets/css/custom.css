@@ -1,0 +1,8 @@
+.col-md-4 {
+    flex: 0 0 49% !important;
+    max-width: 49% !important;
+}
+.about {
+    flex: 0 0 49% !important;
+    max-width: 49% !important;
+}

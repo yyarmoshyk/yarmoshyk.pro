@@ -1,3 +1,5 @@
+theme: jekyll-agency
+
 url: https://yarmoshyk.pro
 baseurl: /
 host: 0.0.0.0
@@ -8,35 +10,37 @@ title: Yarmoshyk Pro DevOps services
 email: yaroslav@yarmoshyk.pro
 description: "Cloud Expert, DevOps evangelist, CI/CD practitioner, IaaC adept, fan of Kubernetes"
 
-
-# Team names, titles and social links
-people:
-- name: Yaroslav Yarmoshyk
-  pic: 1
-  position: CEO, Founder, Solutions Architect
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/yaroslav-yarmoshyk/
+# people:
+# - name: Yaroslav Yarmoshyk
+#   pic: 1
+#   position: CEO, Founder, Solutions Architect
+#   social:
+#     - title: linkedin
+#       url: https://www.linkedin.com/in/yaroslav-yarmoshyk/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
     url: https://www.linkedin.com/company/yarmoshyk-pro-devops-services/
-#   - title: facebook
-#     url:
-#   - title: stack-overflow
-#     url: http://stackoverflow.com/questions/tagged/jekyll
-#   - title: bitbucket 
-#     url: http://bitbucket.org/jekyll
-#   - title: github
-#     url: http://github.com/jekyll
 
-# Postal address (add as many lines as necessary)
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
+
+locale: "en-US" # See available languages in _data/sitetext.yml
+
 address:
   - line: ul. Marsz. Józefa Piłsudskiego 74, lok. 320
   - line: Poland, Wrocław, , 50-020
 
+analytics:
+  google: #Google Analytics tracking code here
 
-# Build settings
+collections:
+  portfolio:
+
 markdown: kramdown
-permalink: pretty
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"

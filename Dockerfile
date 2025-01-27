@@ -3,6 +3,7 @@ FROM ruby:2.5.6
 WORKDIR /myblog
 
 ADD src/Gemfile /myblog/Gemfile
+ADD src/jekyll-agency.gemspec /myblog/jekyll-agency.gemspec
 ADD src/_config.yml /myblog/_config.yml
 
 ENV LANG en_US.UTF-8

@@ -1,6 +1,11 @@
-test
-src/public/*
+*.gem
+.bundle
+.sass-cache
+.jekyll-cache
+_site
+Gemfile.lock
+unused
+bootstrap-reference.html
+*_v2.*
 public/*
-_posts.bak/*
-.DS_Store
-account_details.sh
+.jekyll-metadata
