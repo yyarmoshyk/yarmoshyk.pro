@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form accept-charset="                    <form accept-charset="UTF-8" action="https://formbold.com/s/9xmzW" method="POST" enctype="multipart/form-data" target="_blank">                         
+                    <form id="contact-form" accept-charset="UTF-8" action="https://formbold.com/s/9xmzW" method="POST" enctype="multipart/form-data" target="_blank">                         
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
@@ -33,23 +33,20 @@
                                 </div>
                             </div>
 
-                            <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                             <script async src="https://www.google.com/recaptcha/api.js"></script>
 
-                            <script>
-                                grecaptcha.ready(function() {
-                                    grecaptcha.execute('6LcyuJkpAAAAAChz0IYjhMIcnuHEXmADAtN4p999', {action: 'homepage'})
-                                    .then(function(token) {
-                                      document.getElementById('captchaResponse').value = token;
-                                    });
-                                  });
-                             </script>
-    
+                             <script>
+                                function onSubmit(token) {
+                                    document.getElementById("contact-form").submit();
+                                }
+                            </script>
+
+
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 
-                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase g-recaptcha" type="submit" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>>Send Message</button>
 
                             </div>
                             
