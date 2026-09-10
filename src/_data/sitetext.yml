@@ -21,31 +21,64 @@ carousels:
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: I build Cloud platforms and DevOps solutions for products that launch from scratch
-    # text: Looking for a DevOps services?
-    button: Find out more
-    buttonlink: "#services"
+    title: "AWS & GCP Cloud Platforms for Startups"
+    subtitle: "I help post-seed startups turn MVP infrastructure into secure, scalable, production-ready cloud platforms."
+    keywords: "AWS · GCP · Kubernetes · Terraform · CI/CD · Cloud Architecture"
+    closing: "From architecture and infrastructure-as-code to production deployment — without building a DevOps team from scratch."
+    button: Talk about your infrastructure
+    buttonlink: "#contact"
+    button2: See how I work
+    buttonlink2: "#how-i-work"
+
+  audience:
+    title: "Built for startups moving beyond the MVP"
+    text: "You already have a product and customers. Now the infrastructure needs to catch up."
+    intro: "I work with CTOs and engineering teams that need to:"
+    section: audience
+    list:
+      - "move an MVP into production"
+      - "establish a proper AWS or GCP foundation"
+      - "prepare infrastructure for enterprise customers"
+      - "reduce cloud infrastructure costs"
+      - "migrate between cloud providers"
+      - "introduce Kubernetes without creating unnecessary complexity"
+      - "establish Terraform/IaC and CI/CD standards"
+      - "prepare for security, compliance and future audits"
+    closing: "If you need another DevOps engineer, I'm probably not the right fit. If you need someone to take ownership of the cloud platform problem, we should talk."
 
   services:
-    title: "Services"
-    text: "DevOps professional services for startups and enterprise development."
+    title: "What I help with"
+    text: ""
     section: services
     list:
-      - title: "Cloud Platform based on the best practices"
-        desc: "The standardized scope based on the best practices declared as pillars [AWS Well Architected framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) and can be exteded upon your needs with a custom quote."
+      - title: "Cloud Platform Architecture"
+        desc: "Design and build production-ready AWS and GCP foundations around the needs of your application — networking, identity, security, environments, Kubernetes, observability and automation."
         icon: fas fa-cloud #find more at https://fontawesome.com/v5/search?q=a&o=r&ic=free
-      - title: "Well Architected review"
-        desc: "Find out how [well architected](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) you are: find the gaps in security, operations and determine where you spend extra money."
+        link: "#"
+      - title: "MVP → Production"
+        desc: "Take infrastructure that was good enough for an MVP and turn it into a platform that can support production traffic, engineering teams and enterprise customers."
+        icon: fas fa-rocket
+        link: "#"
+      - title: "AWS & GCP Architecture Reviews"
+        desc: "Identify architectural, security, reliability, operational and cost issues before they become expensive technical debt."
         icon: fab fa-amazon
-      - title: "Cloud Migrations"
-        desc: "Want to migrate your workloads to the AWS/GCP cloud or from Serverless to Kubernetes? This is definitely something we like to do."
+        link: "#"
+      - title: "Cloud Migration"
+        desc: "Plan and execute AWS, GCP and workload migrations with particular focus on networking, identity, data, availability and operational continuity."
         icon: fas fa-cloud-upload-alt
-      - title: "CI/CD improvement"
-        desc: "We work with Github Actions, GitlabCI and Jenkins to improve delivery of your application to end-users."
+        link: "#"
+      - title: "Infrastructure as Code & CI/CD"
+        desc: "Establish reusable Terraform/Terragrunt foundations and GitHub Actions/GitLab CI pipelines for infrastructure and application delivery."
         icon: fas fa-cog
-      - title: "Migrate email solutions to AWS/GCP cloud"
-        desc: "Sparkpost Momentum is the hardest solution I migrated from AWS to GCP cloud however it is possible to run it in the cloud."
-        icon: fas fa-envelope
+        link: "#"
+      - title: "Cloud Cost Optimization"
+        desc: "Identify unnecessary infrastructure spend and architectural decisions that are driving your cloud bill."
+        icon: fas fa-dollar-sign
+        link: "#"
+      - title: "SecOps"
+        desc: "Find the weak points in your application and infrastructure security, fix them, and get your cloud setup ready for audits like ISO 27001 and SOC 2."
+        icon: fas fa-shield-alt
+        link: "#"
 
 
   portfolio:
@@ -100,9 +133,38 @@ en: &DEFAULT_EN
     text: ""
     body: |
       After 10+ years of DevOps Team leadership, Delivery management of DevOps Projects, mentoring DevOps engineers I decided to create a side-hustle to deliver exceptional solutions to the products on the early phases.<br><br>
-      I treat every project as my personal so you can offload all devops and cloud-related decisions on to me (solutions, technologies, communication with cloud account managers, etc.).<br><br>
-      I don't do "all-devops-as-a-service". I builds the Cloud Platforms in AWS and GCP to fit the specific needs of a particular product, wrap it into the IaC and ship with well-balanced CI/CD.<br><br>After the basic project package we expand the platform togather with my 'trusted engineers' based on additional requirements in the mode of Center of Excellence.
+      I treat every project as my personal so you can offload all devops and cloud-related decisions on to me (solutions, technologies, communication with cloud account managers, etc.).
     section: about
+
+  positioning:
+    title: "I don't sell DevOps hours"
+    section: positioning
+    lead: "You don't need another person to maintain a backlog of infrastructure tickets."
+    body:
+      - "You need someone who can understand the application, make the architectural decisions, build the platform and establish the engineering standards around it."
+      - "That's what I do."
+      - "Once the foundation is established, I create an internal capability around it rather than keeping you dependent on an external consultant."
+
+  howiwork:
+    title: "How I work"
+    text: ""
+    section: how-i-work
+    list:
+      - number: "01"
+        title: "Assess"
+        desc: "Understand the application, current infrastructure, business constraints and future requirements."
+      - number: "02"
+        title: "Design"
+        desc: "Define the target architecture, infrastructure standards and implementation roadmap."
+      - number: "03"
+        title: "Build"
+        desc: "Implement the cloud foundation, IaC, Kubernetes, CI/CD and required platform components."
+      - number: "04"
+        title: "Launch"
+        desc: "Bring the application into production with the operational foundations required to run it reliably."
+      - number: "05"
+        title: "Extend"
+        desc: "Continue evolving the platform through a small expert team / Center of Excellence when ongoing support is required."
 
   clients:
     section: clients

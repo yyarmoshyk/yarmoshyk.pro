@@ -18,19 +18,43 @@ header.masthead {
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 36px;
       font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
+      line-height: 42px;
+      margin-bottom: 20px;
       @include heading-font;
+    }
+    .intro-subtitle {
+      font-size: 18px;
+      line-height: 26px;
+      margin: 0 auto 20px;
+      max-width: 700px;
+    }
+    .intro-keywords {
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      opacity: 0.85;
+      margin-bottom: 20px;
+    }
+    .intro-closing {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 auto 30px;
+      max-width: 650px;
+      opacity: 0.9;
+    }
+    .intro-buttons {
+      .btn {
+        margin: 6px;
+      }
     }
   }
 }
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 220px;
+      padding-bottom: 160px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -39,11 +63,25 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 58px;
         font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
+        line-height: 64px;
+        margin-bottom: 25px;
         @include heading-font;
+      }
+      .intro-subtitle {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 25px;
+      }
+      .intro-keywords {
+        font-size: 17px;
+        margin-bottom: 25px;
+      }
+      .intro-closing {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 40px;
       }
     }
   }

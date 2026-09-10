@@ -54,11 +54,25 @@
         <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
 	  {%- endif -%}
     {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+        <h1 class="intro-heading">{{ site.data.sitetext[site.locale].header.title }}</h1>
 	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.subtitle -%}
+        <p class="intro-subtitle">{{ site.data.sitetext[site.locale].header.subtitle }}</p>
+	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.keywords -%}
+        <p class="intro-keywords">{{ site.data.sitetext[site.locale].header.keywords }}</p>
+	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.closing -%}
+        <p class="intro-closing">{{ site.data.sitetext[site.locale].header.closing }}</p>
+	  {%- endif -%}
+	  <div class="intro-buttons">
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
 	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.button2 -%}
+        <a class="btn btn-outline-light btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink2 }}">{{ site.data.sitetext[site.locale].header.button2 }}</a>
+	  {%- endif -%}
+	  </div>
       </div>
     </div>
   </header>
