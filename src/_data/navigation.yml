@@ -15,6 +15,10 @@ en: &DEFAULT_EN
       section: services
     - title: "About"
       section: about
+    - title: "Why Me"
+      section: positioning
+    - title: "How I Work"
+      section: how-i-work
     - title: "Description"
       section: description
     - title: "Contact"

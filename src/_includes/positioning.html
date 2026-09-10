@@ -1,0 +1,31 @@
+<!-- Positioning -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].positioning.section | default: "positioning" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].positioning.title }}</h2>
+          <p class="positioning-lead">{{ site.data.sitetext[site.locale].positioning.lead }}</p>
+          {% for para in site.data.sitetext[site.locale].positioning.body %}
+          <p class="positioning-body">{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.positioning.section | default: "positioning" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.positioning.title }}</h2>
+        <p class="positioning-lead">{{ site.data.sitetext.positioning.lead }}</p>
+        {% for para in site.data.sitetext.positioning.body %}
+        <p class="positioning-body">{{ para }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Positioning -->

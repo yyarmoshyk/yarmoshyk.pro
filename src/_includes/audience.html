@@ -1,0 +1,67 @@
+<!-- Audience -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].audience.section | default: "audience" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].audience.title }}</h2>
+          {% if site.data.sitetext[site.locale].audience.text %}
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].audience.text }}</h3>
+          {% endif %}
+          {% if site.data.sitetext[site.locale].audience.intro %}
+          <p class="audience-intro">{{ site.data.sitetext[site.locale].audience.intro }}</p>
+          {% endif %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <ul class="audience-list">
+          {% for item in site.data.sitetext[site.locale].audience.list %}
+            <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% if site.data.sitetext[site.locale].audience.closing %}
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 text-center">
+          <p class="audience-closing">{{ site.data.sitetext[site.locale].audience.closing }}</p>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.audience.section | default: "audience" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.audience.title }}</h2>
+        {% if site.data.sitetext.audience.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.audience.text }}</h3>
+        {% endif %}
+        {% if site.data.sitetext.audience.intro %}
+        <p class="audience-intro">{{ site.data.sitetext.audience.intro }}</p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <ul class="audience-list">
+        {% for item in site.data.sitetext.audience.list %}
+          <li>{{ item }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% if site.data.sitetext.audience.closing %}
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 text-center">
+        <p class="audience-closing">{{ site.data.sitetext.audience.closing }}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+<!-- End Audience -->
