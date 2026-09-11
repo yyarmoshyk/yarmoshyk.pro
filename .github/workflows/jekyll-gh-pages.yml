@@ -4,8 +4,8 @@ name: Deploy to GitHub Pages
 on:
   workflow_dispatch:
   # Runs on pushes targeting the default branch
-  # push:
-  #   branches: ["master"]
+  push:
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
 
