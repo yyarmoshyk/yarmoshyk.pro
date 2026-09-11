@@ -19,8 +19,6 @@ en: &DEFAULT_EN
       section: positioning
     - title: "How I Work"
       section: how-i-work
-    - title: "Description"
-      section: description
     - title: "Contact"
       section: contact
 en-US:
