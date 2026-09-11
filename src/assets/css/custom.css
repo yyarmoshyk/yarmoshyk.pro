@@ -52,13 +52,13 @@
     align-items: stretch;
     justify-content: center;
     margin: 50px 0 10px;
-    overflow-x: auto;
+    overflow-x: visible;
 }
 .howiwork-pipeline-col {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    min-width: 150px;
+    min-width: 190px;
     margin-left: -18px;
 }
 .howiwork-pipeline-col:first-child {
@@ -98,13 +98,19 @@
 .howiwork-c5 .howiwork-chevron { background: #6f42c1; }
 .howiwork-explain {
     margin-top: 20px;
-    padding: 14px 14px;
+    padding: 14px 18px;
     border: 1px solid #dee2e6;
     border-top: 4px solid #007bff;
     border-radius: 8px;
     font-size: 14px;
+    line-height: 1.6;
     color: #6c757d;
     flex: 1;
+    height: auto;
+    overflow: visible;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
     background: #fff;
 }
 .howiwork-c1 .howiwork-explain { border-top-color: #007bff; }

@@ -25,8 +25,6 @@ en: &DEFAULT_EN
     subtitle: "I help post-seed startups turn MVP infrastructure into secure, scalable, production-ready cloud platforms."
     keywords: "AWS · GCP · Kubernetes · Terraform · CI/CD · Cloud Architecture"
     closing: "From architecture and infrastructure-as-code to production deployment — without building a DevOps team from scratch."
-    button: Talk about your infrastructure
-    buttonlink: "#contact"
     button2: See how I work
     buttonlink2: "#how-i-work"
 
@@ -42,12 +40,13 @@ en: &DEFAULT_EN
       - "reduce cloud infrastructure costs"
       - "migrate between cloud providers"
       - "introduce Kubernetes without creating unnecessary complexity"
-      - "establish Terraform/IaC and CI/CD standards"
+      - "create Terraform/Terragrunt IaC framework to manage cloud infrastructure"
+      - "enforce CI/CD standards"
       - "prepare for security, compliance and future audits"
     closing: "If you need another DevOps engineer, I'm probably not the right fit. If you need someone to take ownership of the cloud platform problem, we should talk."
 
   services:
-    title: "What I help with"
+    title: "Services I provide"
     text: ""
     section: services
     list:
@@ -59,20 +58,16 @@ en: &DEFAULT_EN
         desc: "Take infrastructure that was good enough for an MVP and turn it into a platform that can support production traffic, engineering teams and enterprise customers."
         icon: fas fa-rocket
         link: "#"
-      - title: "AWS & GCP Architecture Reviews"
-        desc: "Identify architectural, security, reliability, operational and cost issues before they become expensive technical debt."
-        icon: fab fa-amazon
-        link: "#"
-      - title: "Cloud Migration"
-        desc: "Plan and execute AWS, GCP and workload migrations with particular focus on networking, identity, data, availability and operational continuity."
+      - title: "Cloud Migrations"
+        desc: "Migrate workloads into or between AWS and GCP cloud platforms with particular focus on networking, identity, data, availability and operational continuity."
         icon: fas fa-cloud-upload-alt
         link: "#"
       - title: "Infrastructure as Code & CI/CD"
         desc: "Establish reusable Terraform/Terragrunt foundations and GitHub Actions/GitLab CI pipelines for infrastructure and application delivery."
         icon: fas fa-cog
         link: "#"
-      - title: "Cloud Cost Optimization"
-        desc: "Identify unnecessary infrastructure spend and architectural decisions that are driving your cloud bill."
+      - title: "FinOps"
+        desc: "Cloud Cost Optimization by identifying the unnecessary AWS and GCP cloud spends and architectural decisions that are driving your cloud bill."
         icon: fas fa-dollar-sign
         link: "#"
       - title: "SecOps"
@@ -89,45 +84,6 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
 
-  description:
-    title: "Description"
-    text: "FAQ"
-    section: description
-    # left is the default
-    #start_align: "left"
-    events:
-      - slug: "Who I am?"
-        title: "AWS Cloud expert & DevOps evangelist"
-        # desc: "A team of DevOps engineers from TOP5 Ukrainian IT companies with 5-8+ years of experience in providing DevOps services in enterprise domain."
-        desc: "I'm one man with an army behind. I'm a nightmare for any outsourcing company. I realised that he can do it better without corporate bull-s%#t. I played many roles in TOP5 IT compnies in Ukraine and gained the priceless experience."
-        image: assets/img/about2/1.png
-        alt:
-      - slug: "What am I doing?"
-        title: "Build cloud platforms in AWS & GCP"
-        desc: "I build AWS Cloud Platforms based on the application needs, adjust application architecture according to [AWS Cloud Adoptation](https://aws.amazon.com/cloud-adoption-framework/) framework and create CoE team to support the platform."
-        image: assets/img/about2/2.png
-        alt:
-      - slug: "What else?"
-        title: "Enforce DevOps standars from beginning"
-        desc: "I enforce DevOps best practices and standards that actually work to allow dev teams to be self-capable."
-        image: assets/img/about2/3.png
-        alt:
-      - slug: "How I do it?"
-        title: "Collective knowledge sanitized into internal standards"
-        desc: "I adopted the best practices from [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected) and packaged those into internal standards that are being delivered by the people I trust. This hard work allows to work smart and covers security, automation, kubernetes, monitoring, CI/CD and infrastructure as code with terraform."
-        image: assets/img/about2/4.png
-        alt:
-      - slug: "Why do I do it?"
-        title: "To eliminate DevOps technical debt from early project stages."
-        desc: "Most of the small solutions are forced to start without decent DevOps expertice. My service offering allows to skip the need of hiring the DevOps engineers and eliminate the technical debt from early project stages."
-        image: assets/img/about2/5.png
-        # alt: image alt text
-      # - slug: "Why we do it?"
-      #   title: "To eliminate DevOps technical debt from early project stages"
-      #   desc: "Most of the small solutions are forced to start without decent DevOps expertice. My service offering allows to skip the need of hiring the DevOps engineers and eliminate the technical debt from early project stages."
-      #   image: assets/img/about2/6.png
-    # end: ""
-
   about:
     title: "About"
     text: ""
@@ -141,34 +97,49 @@ en: &DEFAULT_EN
     section: about
 
   positioning:
-    title: "I don't sell DevOps hours"
+    title: "I don't do Everything-DevOps-as-a-service"
     section: positioning
     lead: "You don't need another person to maintain a backlog of infrastructure tickets."
     body:
       - "You need someone who can understand the application, make the architectural decisions, build the platform and establish the engineering standards around it."
-      - "That's what I do."
-      - "Once the foundation is established, I create an internal capability around it rather than keeping you dependent on an external consultant."
+      - "I take the <b>ownership of the Cloud and DevOps segment</b> of your product to offload this from the CTO and Engineering leadership so that you can focus on the product and business growth rather than infrastructure and DevOps issues."
 
   howiwork:
     title: "How I work"
-    text: ""
+    text: "Adopt Well Architected Framework principles for your particular case."
     section: how-i-work
     list:
       - number: "01"
         title: "Assess"
-        desc: "Understand the application, current infrastructure, business constraints and future requirements."
+        desc: |
+          Understand the application, current infrastructure, business constraints and future requirements.<br><br>
+          We meet and talk about your current state, future goals and current issues you'd like to address first.
       - number: "02"
         title: "Design"
-        desc: "Define the target architecture, infrastructure standards and implementation roadmap."
+        desc: |
+          Based on the outcomes of assessment I prepare the solution design of the target cloud architecture, infrastructure standards and implementation roadmap.<br><br>
+          The estimates are being provided based on the roadmap. <br><br>
+          The solution proposal is presented to your team for review to ensure we are aligned on the approach and the implementation plan.
       - number: "03"
         title: "Build"
-        desc: "Implement the cloud foundation, IaC, Kubernetes, CI/CD and required platform components."
+        desc: |
+          I lead the implementation of the cloud foundation, IaC, Kubernetes, CI/CD and required platform components according to the design and roadmap.<br><br>
+          At this stage I can work with your engineering team or with my trusted team of DevOps engineers to implement the solution.<br><br>
+          <b>With my team I can guarantee the in-time delivery.</b> <br><br>
+          With your team - it depends on their availability and skills. <br><br>
+          I can also train your team to implement the solution themselves.<br><br>
       - number: "04"
         title: "Launch"
-        desc: "Bring the application into production with the operational foundations required to run it reliably."
+        desc: |
+          Bring the application into production with the operational foundations required to run it reliably. <br><br>
+          This is a natural step to promote the resulting platform into production.<br><br> 
+          I don't consider my work as finished here. I provide support and consultations about the platform and the application.<br><br>
       - number: "05"
         title: "Extend"
-        desc: "Continue evolving the platform through a small expert team / Center of Excellence when ongoing support is required."
+        desc: |
+          Continue evolving the platform through a small expert team in Center of Excellence mode<br><br>
+          At least one member of my team remains assigned to your project for ongoing support, consultations and implementation of new features.<br><br>
+          I can also help to train your team to operate the platform independently or help you hire the right talens to support the platform in-house.
 
   clients:
     section: clients
