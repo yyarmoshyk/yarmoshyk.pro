@@ -167,3 +167,10 @@
         margin-bottom: 4px;
     }
 }
+#pagecontainer a:not(.btn) {
+    color: #0056b3;
+    text-decoration: underline;
+}
+#pagecontainer a:not(.btn):hover {
+    color: #003d82;
+}
