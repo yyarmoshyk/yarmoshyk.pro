@@ -141,6 +141,22 @@ en: &DEFAULT_EN
           At least one member of my team remains assigned to your project for ongoing support, consultations and implementation of new features.<br><br>
           I can also help to train your team to operate the platform independently or help you hire the right talens to support the platform in-house.
 
+  technologies:
+    title: "Technologies"
+    text: ""
+    section: technologies
+    list:
+      - category: "Cloud Platforms"
+        items: "AWS · GCP"
+      - category: "Infrastructure"
+        items: "Terraform · Terragrunt · Kubernetes · Ansible · Helm"
+      - category: "CI/CD"
+        items: "GitHub Actions · GitLab CI · Jenkins · Branching strategies · GitOps"
+      - category: "Platform"
+        items: "EKS · GKE · IAM · Identity Center · SSO · Networking · Observability"
+      - category: "Architecture"
+        items: "AWS Well-Architected · Landing Zone • Cloud governance<br>FinOps · SecOps · Cloud migrations"
+
   clients:
     section: clients
     max-height: 100px
