@@ -53,27 +53,35 @@ en: &DEFAULT_EN
       - title: "Cloud Platform Architecture"
         desc: "Design and build production-ready AWS and GCP foundations around the needs of your application — networking, identity, security, environments, Kubernetes, observability and automation."
         icon: fas fa-cloud #find more at https://fontawesome.com/v5/search?q=a&o=r&ic=free
-        link: "#"
-      - title: "MVP → Production"
-        desc: "Take infrastructure that was good enough for an MVP and turn it into a platform that can support production traffic, engineering teams and enterprise customers."
-        icon: fas fa-rocket
-        link: "#"
+        link: "/startup-cloud-platform/"
+      - title: "AWS Consulting"
+        desc: "Landing Zones, account structure, networking, IAM, EKS and Terraform foundations for startups building on AWS."
+        icon: fab fa-aws
+        link: "/aws-consulting/"
+      - title: "GCP Consulting"
+        desc: "Landing Zones, resource hierarchy, networking, IAM, GKE and Terraform foundations for startups building on Google Cloud."
+        icon: fab fa-google
+        link: "/gcp-consulting/"
       - title: "Cloud Migrations"
         desc: "Migrate workloads into or between AWS and GCP cloud platforms with particular focus on networking, identity, data, availability and operational continuity."
         icon: fas fa-cloud-upload-alt
-        link: "#"
+        link: "/cloud-migration/"
+      - title: "AWS Well-Architected Reviews"
+        desc: "Assess your workload against the six pillars and turn it into a prioritized, fundable roadmap instead of a generic checklist."
+        icon: fas fa-rocket
+        link: "/aws-well-architected/"
       - title: "Infrastructure as Code & CI/CD"
         desc: "Establish reusable Terraform/Terragrunt foundations and GitHub Actions/GitLab CI pipelines for infrastructure and application delivery."
         icon: fas fa-cog
-        link: "#"
+        link: "/iac-cicd/"
       - title: "FinOps"
         desc: "Cloud Cost Optimization by identifying the unnecessary AWS and GCP cloud spends and architectural decisions that are driving your cloud bill."
         icon: fas fa-dollar-sign
-        link: "#"
+        link: "/finops/"
       - title: "SecOps"
         desc: "Find the weak points in your application and infrastructure security, fix them, and get your cloud setup ready for audits like ISO 27001 and SOC 2."
         icon: fas fa-shield-alt
-        link: "#"
+        link: "/secops/"
 
 
   portfolio:
@@ -103,10 +111,12 @@ en: &DEFAULT_EN
     body:
       - "You need someone who can understand the application, make the architectural decisions, build the platform and establish the engineering standards around it."
       - "I take the <b>ownership of the Cloud and DevOps segment</b> of your product to offload this from the CTO and Engineering leadership so that you can focus on the product and business growth rather than infrastructure and DevOps issues."
+      - "The best advantage is that we agree the scope before engagement, so you know exactly what you are getting and how much it will cost. No surprises, no open-ended engagements. No hiring, no onboarding, no technical interviews."
+      - "Collaboration is simple, fast and transparent."
 
   howiwork:
     title: "How I work"
-    text: "Adopt Well Architected Framework principles for your particular case."
+    text: "Adopt Well Architected Framework principles juiced with the common sense for your particular case."
     section: how-i-work
     list:
       - number: "01"
@@ -125,9 +135,9 @@ en: &DEFAULT_EN
         desc: |
           I lead the implementation of the cloud foundation, IaC, Kubernetes, CI/CD and required platform components according to the design and roadmap.<br><br>
           At this stage I can work with your engineering team or with my trusted team of DevOps engineers to implement the solution.<br><br>
-          <b>With my team I can guarantee the in-time delivery.</b> <br><br>
-          With your team - it depends on their availability and skills. <br><br>
-          I can also train your team to implement the solution themselves.<br><br>
+          <b>With my team I can guarantee the in-time delivery.</b> (Costs: $) <br><br>
+          With your team - it depends on their availability and skills. (Costs: $$$) <br><br>
+          I can also train your team to implement the solution themselves. (Costs: $$$$) <br><br>
       - number: "04"
         title: "Launch"
         desc: |
@@ -139,7 +149,8 @@ en: &DEFAULT_EN
         desc: |
           Continue evolving the platform through a small expert team in Center of Excellence mode<br><br>
           At least one member of my team remains assigned to your project for ongoing support, consultations and implementation of new features.<br><br>
-          I can also help to train your team to operate the platform independently or help you hire the right talens to support the platform in-house.
+          I can train your team to operate the platform independently or help you hire the right talens to support the platform in-house.<br><br>
+          I can build the DevOps and SRE teams along with processes for you upon implementation. 
 
   technologies:
     title: "Technologies"
