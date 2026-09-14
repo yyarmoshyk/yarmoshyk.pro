@@ -33,6 +33,29 @@ Teams who've just received a security audit report and need someone to own remed
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
+### FAQ
+
+**Do you work with startups that don't have a DevOps team?**
+Yes — I own remediation end-to-end so you don't need in-house capacity to close audit findings.
+
+**Can you take over an existing AWS or GCP environment?**
+Yes. Remediation starts with the environment as it exists, informed by the audit report.
+
+**Do you work with Terraform and Terragrunt?**
+Yes — fixes get implemented as infrastructure as code where possible, so they're durable, not a one-off console change.
+
+**Can you help reduce AWS or GCP costs?**
+Not the focus here, but security hardening and cost work often overlap — see [Cloud Cost Optimization (FinOps)](/finops/) if that's a separate need.
+
+**Do you provide ongoing DevOps support?**
+Yes, including re-audit readiness so the next audit cycle doesn't surface the same findings again.
+
+**Do you work remotely?**
+Yes, remotely with startups regardless of location.
+
+**How long does it take?**
+Depends on the number and severity of findings — triage happens fast, with quick fixes separated from structural changes so remediation starts immediately.
+
 ### Related
 
 - [AWS Well-Architected Reviews](/aws-well-architected/)

@@ -33,6 +33,35 @@ Provider-to-provider migrations (AWS ↔ GCP), data center exits, account restru
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
+### FAQ
+
+**Can you migrate an existing workload from AWS to GCP?**
+Yes, and the reverse too — provider-to-provider migrations are one of the most common projects I run.
+
+**Do you work with startups that don't have a DevOps team?**
+Yes — I can lead the migration directly rather than requiring an in-house team to execute it.
+
+**Can you take over an existing AWS or GCP environment?**
+Yes. Every migration starts with an assessment of the current environment's dependencies and constraints.
+
+**Do you build Kubernetes platforms?**
+If the workload runs on Kubernetes, cluster architecture is part of the target design — see [Cloud Platform for Startups](/startup-cloud-platform/).
+
+**Do you work with Terraform and Terragrunt?**
+Yes — the destination environment gets built as infrastructure as code from day one, not by hand.
+
+**Can you help reduce cloud costs?**
+Migrations are a natural point to fix cost-driving architectural decisions rather than lifting-and-shifting them — see [Cloud Cost Optimization (FinOps)](/finops/).
+
+**Do you provide ongoing DevOps support?**
+Yes, I can stay on after cutover, or hand off to your team with clear operational standards.
+
+**Do you work remotely?**
+Yes, remotely with startups regardless of location.
+
+**How long does it take?**
+Depends on scope and workload count — the migration plan sequences everything with timelines up front so there are no surprises mid-project.
+
 ### Related
 
 - [AWS Consulting for Startups](/aws-consulting/)
