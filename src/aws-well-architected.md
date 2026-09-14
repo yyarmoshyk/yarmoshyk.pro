@@ -32,32 +32,6 @@ Enterprise customers and compliance audits (SOC 2, ISO 27001) increasingly expec
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
-### FAQ
-
-**Do you work with startups that don't have a DevOps team?**
-Yes — I run the review and can lead remediation directly if you don't have the in-house capacity.
-
-**Can you take over an existing AWS environment?**
-Yes. A Well-Architected review is often the first step when taking over an environment someone else built.
-
-**Do you build Kubernetes platforms?**
-If EKS is in scope, the review covers it, and I can lead the remediation work — see [AWS Consulting for Startups](/aws-consulting/).
-
-**Do you work with Terraform and Terragrunt?**
-Yes — remediation findings get implemented as infrastructure as code, not one-off console changes.
-
-**Can you help reduce AWS costs?**
-Yes, cost optimization is one of the six pillars — see [Cloud Cost Optimization (FinOps)](/finops/) if that's the main driver.
-
-**Do you provide ongoing DevOps support?**
-Yes, after the review I can lead remediation end-to-end or hand your team a prioritized roadmap to work from.
-
-**Do you work remotely?**
-Yes, remotely with startups regardless of location.
-
-**How long does it take?**
-A scoped review typically takes one to two weeks depending on the size of the workload, followed by a sequenced remediation roadmap.
-
 ### Related
 
 - [AWS Consulting for Startups](/aws-consulting/)

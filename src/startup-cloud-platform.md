@@ -33,35 +33,6 @@ CTOs and engineering leads at post-seed and growing startups who need someone to
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
-### FAQ
-
-**Do you work with startups that don't have a DevOps team?**
-Yes — that's exactly who this is for. I design and build the platform so you don't need to hire one first.
-
-**Can you take over an existing AWS or GCP environment?**
-Yes. I assess what you have and build the platform layer on top of or around it, rather than a rebuild by default.
-
-**Can you migrate an existing workload from AWS to GCP?**
-Yes — see [Cloud Migration Consulting](/cloud-migration/) if migration, not net-new platform work, is the primary need.
-
-**Do you build Kubernetes platforms?**
-Yes, when it earns its complexity for your workload — it's not introduced by default.
-
-**Do you work with Terraform and Terragrunt?**
-Yes, exclusively, so infrastructure changes stay reviewed, repeatable and auditable.
-
-**Can you help reduce AWS or GCP costs?**
-Yes, cost-aware sizing is part of the foundation — see [Cloud Cost Optimization (FinOps)](/finops/) for a dedicated engagement.
-
-**Do you provide ongoing DevOps support?**
-Yes — hand off with clear standards, or stay on in a Center of Excellence model.
-
-**Do you work remotely?**
-Yes, remotely with startups regardless of location.
-
-**How long does it take to build a production cloud platform?**
-The core foundation — Landing Zone, IaC and CI/CD — typically takes a few weeks; [see how I work](/#how-i-work) for the process.
-
 ### Related
 
 - [AWS Consulting for Startups](/aws-consulting/)

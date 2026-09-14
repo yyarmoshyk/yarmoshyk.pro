@@ -34,29 +34,6 @@ I work with post-seed and growing startups that need a production-ready AWS foun
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
-### FAQ
-
-**Do you work with startups that don't have a DevOps team?**
-Yes — that's most of my clients. I take ownership of the AWS platform end-to-end so your engineers can stay focused on the product.
-
-**Can you take over an existing AWS environment?**
-Yes. I assess what's there first, then decide what to keep, refactor or rebuild rather than starting from scratch by default.
-
-**Do you work with Terraform and Terragrunt?**
-Yes, exclusively for infrastructure changes — no ClickOps, so your team ends up with a codebase they can extend after I'm gone.
-
-**Can you help reduce AWS costs?**
-Yes, alongside the architecture work — cost optimization on AWS is usually a byproduct of fixing the underlying design, not a separate line item. See [Cloud Cost Optimization (FinOps)](/finops/) if that's the primary need.
-
-**Do you provide ongoing DevOps support?**
-Yes, either a fixed-scope engagement to build the foundation and hand it off, or an ongoing Center of Excellence arrangement if you want me to stay on.
-
-**Do you work remotely?**
-Yes, remotely with startups regardless of location.
-
-**How long does it take to build a production AWS platform?**
-Depends on scope, but a Landing Zone and core foundation typically lands in weeks, not months — [see how I work](/#how-i-work) for the process.
-
 ### Related
 
 - [AWS Well-Architected Reviews](/aws-well-architected/)
