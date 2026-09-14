@@ -34,35 +34,6 @@ I help startups design and build production-ready Google Cloud Platform foundati
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
-### FAQ
-
-**Do you work with startups that don't have a DevOps team?**
-Yes — most clients don't have one yet. I take ownership of the GCP platform so your engineers can stay on the product.
-
-**Can you take over an existing GCP environment?**
-Yes. I assess the current resource hierarchy, networking and IAM first, then fix or rebuild what's actually holding you back.
-
-**Can you migrate an existing workload from AWS to GCP?**
-Yes — see [Cloud Migration Consulting](/cloud-migration/) for how I approach provider-to-provider migrations.
-
-**Do you build Kubernetes platforms?**
-Yes, GKE cluster architecture and operational standards, introduced when it actually solves a problem for you.
-
-**Do you work with Terraform and Terragrunt?**
-Yes, exclusively — every GCP change goes through infrastructure as code your team can own afterward.
-
-**Can you help reduce GCP costs?**
-Yes, as part of the architecture work, or as a dedicated engagement — see [Cloud Cost Optimization (FinOps)](/finops/).
-
-**Do you provide ongoing DevOps support?**
-Yes, either a handoff after building the foundation, or an ongoing Center of Excellence arrangement.
-
-**Do you work remotely?**
-Yes, remotely with startups regardless of location.
-
-**How long does it take to build a production cloud platform?**
-A GCP Landing Zone and core foundation typically takes weeks — [see how I work](/#how-i-work) for the process.
-
 ### Related
 
 - [AWS Consulting for Startups](/aws-consulting/)

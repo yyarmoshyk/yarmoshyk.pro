@@ -33,32 +33,6 @@ Startups and growing companies whose AWS or GCP bill has started growing faster 
   <a class="btn btn-outline-secondary btn-xl js-scroll-trigger" href="/#how-i-work">See how I work</a>
 </div>
 
-### FAQ
-
-**Can you help reduce AWS costs?**
-Yes — I look at the architectural decisions driving spend, not just idle resources to shut off.
-
-**Can you help reduce GCP costs?**
-Yes, the same approach applies across both AWS and GCP.
-
-**Do you work with startups that don't have a DevOps team?**
-Yes — I can run the review and implement the fixes directly.
-
-**Can you take over an existing AWS or GCP environment?**
-Yes. Cost review starts with the environment as it exists today, no rebuild required.
-
-**Do you work with Terraform and Terragrunt?**
-Yes — right-sizing and guardrail changes get implemented as infrastructure as code where possible, not manual console edits.
-
-**Do you provide ongoing DevOps support?**
-Yes, I can set up ongoing budgets, alerts and tagging standards, or hand those off to your team.
-
-**Do you work remotely?**
-Yes, remotely with startups regardless of location.
-
-**How long does it take?**
-An initial cost review and quick-win fixes typically take one to two weeks; structural changes follow a longer roadmap depending on scope.
-
 ### Related
 
 - [AWS Well-Architected Reviews](/aws-well-architected/)
