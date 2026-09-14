@@ -19,6 +19,8 @@ en: &DEFAULT_EN
       section: positioning
     - title: "How I Work"
       section: how-i-work
+    - title: "Technologies"
+      section: technologies
     - title: "Contact"
       section: contact
 en-US:
