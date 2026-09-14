@@ -96,7 +96,7 @@ en: &DEFAULT_EN
     title: "About"
     text: ""
     body: |
-      My name is [Yaroslav Yarmoshyk](https://www.linkedin.com/in/yaroslav-yarmoshyk/), I'm a certified multi-cloud architect and DevOps leader with 17+ years of engineering experience specializing in **AWS** & **GCP** platform engineering.<br><br>
+      My name is Yaroslav Yarmoshyk ([LinkedIN](https://www.linkedin.com/in/yaroslav-yarmoshyk/)), I'm a certified multi-cloud architect and DevOps leader with 17+ years of engineering experience specializing in **AWS** & **GCP** platform engineering.<br><br>
       I work with post-seed and growing startups to build scalable, secure and cost-efficient cloud platforms. I design AWS and GCP Landing Zones, infrastructure as code with Terraform+Terragrunt, Kubernetes, CI/CD pipelines and operational standards that support growth without creating unnecessary financial or operational overhead.<br><br>
       I bring 17 years of hands-on IT experience, mostly learned the hard way by solving complex cloud and DevOps problems in real production environments, through difficult migrations, failures, incidents. Now I turn that into repeatable patterns and practical solutions. I have accumulated a set of engineering patterns, architectural decisions and operational practices that I now use to help startups avoid the expensive infrastructure mistakes I have seen throughout my career.<br><br>
       My goal is to build the right technical foundation early, so business can scale without drowning in technical debt, cloud costs, operational complexity or expensive rework later.<br><br>
