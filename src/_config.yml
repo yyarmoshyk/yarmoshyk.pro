@@ -7,7 +7,7 @@ host: 0.0.0.0
 incremental: false
 
 # Site settings
-title: Yarmoshyk Pro DevOps services
+title: Yarmoshyk Pro
 email: yaroslav@yarmoshyk.pro
 description: "Cloud Expert, DevOps evangelist, CI/CD practitioner, IaaC adept, fan of Kubernetes"
 

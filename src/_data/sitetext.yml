@@ -68,7 +68,7 @@ en: &DEFAULT_EN
         icon: fas fa-cloud-upload-alt
         link: "/cloud-migration/"
       - title: "AWS Well-Architected Reviews"
-        desc: "Assess your workload against the six pillars and turn it into a prioritized, fundable roadmap instead of a generic checklist."
+        desc: "Assess your workload against the six pillars and turn it into a prioritized, actionable remediation roadmap instead of a generic checklist."
         icon: fas fa-rocket
         link: "/aws-well-architected/"
       - title: "Infrastructure as Code & CI/CD"
