@@ -76,7 +76,7 @@ en: &DEFAULT_EN
         icon: fas fa-cog
         link: "/iac-cicd/"
       - title: "FinOps"
-        desc: "Cloud Cost Optimization by identifying the unnecessary AWS and GCP cloud spends and architectural decisions that are driving your cloud bill."
+        desc: "Cloud Cost Optimization by identifying the unnecessary AWS and GCP cloud spend and architectural decisions that are driving your cloud bill."
         icon: fas fa-dollar-sign
         link: "/finops/"
       - title: "SecOps"
@@ -138,9 +138,9 @@ en: &DEFAULT_EN
         desc: |
           I lead the implementation of the cloud foundation, IaC, Kubernetes, CI/CD and required platform components according to the design and roadmap.<br><br>
           At this stage I can work with your engineering team or with my trusted team of DevOps engineers to implement the solution.<br><br>
-          <b>With my team I can guarantee the in-time delivery.</b> (Costs: $) <br><br>
-          With your team - it depends on their availability and skills. (Costs: $$$) <br><br>
-          I can also train your team to implement the solution themselves. (Costs: $$$$) <br><br>
+          <b>With my team I can take responsibility for delivery against the agreed scope and timeline.</b><br><br>
+          With your team - it depends on their availability and skills.<br><br>
+          I can also train your team to implement the solution themselves.<br><br>
       - number: "04"
         title: "Launch"
         desc: |

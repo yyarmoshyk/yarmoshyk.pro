@@ -15,7 +15,7 @@ slides:
 
       **My role:** FinOps, AWS Cloud Architect
 
-      **Outcome:** The target was a 10-20% cost reduction. Working solo as solution architect over 8 months, self-onboarding rather than relying on handover, the AWS bill was cut by roughly 50% — from $96k down to $38-42k/month.
+      **Outcome:** The target was a 10-20% cost reduction. Working solo as solution architect over 8 months, self-onboarding rather than relying on handover, the AWS bill was cut by roughly 50% — from $96k down to $42–48k/month.
 
       **Technologies:** Terraform (refactored the IaC and identified unused and missing resources), Ansible (configuration management, removed unnecessary logging), Jenkins pipelines (automated configuration and infrastructure management).
 

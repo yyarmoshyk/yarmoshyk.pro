@@ -11,7 +11,7 @@ background: grey
 	<p class="lead">A practical Well-Architected review — assess, prioritize and fix, without a 200-page report nobody reads.</p>
 </div>
 
-Most startups adopt AWS Well-Architected principles unevenly — some pillars get attention, others are ignored until an incident or an enterprise customer's security questionnaire forces the issue. I run a review scoped to your actual workload and turn it into a prioritized, fundable roadmap instead of a generic checklist.
+Most startups adopt AWS Well-Architected principles unevenly — some pillars get attention, others are ignored until an incident or an enterprise customer's security questionnaire forces the issue. I run a review scoped to your actual workload and turn it into a prioritized, actionable and specific roadmap instead of a generic checklist.
 
 ### How the review works
 
