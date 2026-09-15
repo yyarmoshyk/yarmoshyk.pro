@@ -59,6 +59,9 @@
 	  {%- if site.data.sitetext[site.locale].header.subtitle -%}
         <p class="intro-subtitle">{{ site.data.sitetext[site.locale].header.subtitle }}</p>
 	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.location -%}
+        <p class="intro-location">{{ site.data.sitetext[site.locale].header.location }}</p>
+	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.keywords -%}
         <p class="intro-keywords">{{ site.data.sitetext[site.locale].header.keywords }}</p>
 	  {%- endif -%}

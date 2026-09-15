@@ -1,5 +1,17 @@
 ---
 ---
+.intro-location {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    opacity: 0.85;
+    margin: -10px auto 20px;
+}
+@media (min-width: 768px) {
+    .intro-location {
+        font-size: 17px;
+        margin: -15px auto 25px;
+    }
+}
 .col-md-4 {
     flex: 0 0 49% !important;
     max-width: 49% !important;
