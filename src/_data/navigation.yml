@@ -19,6 +19,8 @@ en: &DEFAULT_EN
       section: positioning
     - title: "How I Work"
       section: how-i-work
+    - title: "Case Studies"
+      url: /case-studies/
     - title: "FAQ"
       url: /faq/
     - title: "Contact"

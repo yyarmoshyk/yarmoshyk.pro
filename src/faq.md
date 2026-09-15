@@ -20,7 +20,7 @@ Yes — these are most of my clients. I take ownership of the cloud platform pro
 Yes. I perform the assessment to learn what you have, clarify your goals and timeline. Next I can conclude what to keep, refactor or rebuild rather than starting from scratch by default.
 
 **Do you provide ongoing DevOps support?**
-Yes and no. I'm consultant and architect so I don't provide suport myself. However I can build in-house DevOps and SRE teams for you if the capacity of my trusted engineers will not be sufficient as an ongoing Center of Excellence arrangement.
+Yes and no. I'm consultant and architect so I don't provide support myself. However I can build in-house DevOps and SRE teams for you if the capacity of my trusted engineers will not be sufficient as an ongoing Center of Excellence arrangement.
 
 **Do you work remotely?**
 Yes, remotely worldwide if there is time zone coverage. I work with any startup regardless of location (except of russia).
@@ -29,7 +29,7 @@ Yes, remotely worldwide if there is time zone coverage. I work with any startup 
 Depends on scope and what is meant under "production cloud platform", but a Landing Zone and core foundation typically lands in 2-3 weeks, end-to-end multi-account landing zone with networking, IAM and other resources can take up to 2-3 months. [See how I work](/#how-i-work) for the process.
 
 **Is it even legal to work this way?** 
-Yes. Our colaboration will be on the B2B contract bases, I will provide tax residence certificate so you can deduct my fees from your taxation base. Any legal form from your side will be filled with the details about my EU business entity.
+Yes. Our collaboration will be on the B2B contract basis, I will provide tax residence certificate so you can deduct my fees from your taxation base. Any legal form from your side will be filled with the details about my EU business entity.
 
 **Which timezone do you work?**
 I work only during the CET (UTC+2) business hours 9AM-6PM. This gives a 3 hour coverage for EDT/EST timezone so I can definitely devote time to your East-coast teams located in USA.
@@ -59,8 +59,8 @@ Yes — see [AWS Well-Architected Reviews](/aws-well-architected/) for a practic
 **Do I need AWS Well-Architected review?**
 Yes, it allows to identify gaps and issues in your cloud setup. Typical focus is on the following pillars becuase these allow to identify the most of problems in your cloud setup: [Security](https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html), [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html), [Cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html) and [Performance efficiency](https://docs.aws.amazon.com/wellarchitected/latest/framework/performance-efficiency.html)
 
-**Do you help dial with the consultants and advisors from AWS/GCP? I don't understand them**
-Yes, I help to push-back the irrelevant solutions, challange recomendations and select the right path for your product.
+**Do you help deal with the consultants and advisors from AWS/GCP? I don't understand them**
+Yes, I help to push-back the irrelevant solutions, challenge recommendations and select the right path for your product.
 
 **Are you a partner of AWS or GCP?** 
 No, I don't have a dedicated partnership manager, I don't provide AWS or GCP funded services, I don't cover getting fundings from neither AWS nor GCP but can assist with everything that is needed to get it.
@@ -91,7 +91,7 @@ Yes — I look at the architectural decisions driving spend, not just idle resou
 Yes — see [Post-Audit Security Remediation (SecOps)](/secops/) for turning an audit report into fixed findings and a setup that's actually ready for ISO 27001 and SOC 2.
 
 ### Technologies
-Which technologies do you prwork with?
+Which technologies do you work with?
 <div class="technologies-grid">
 {% for row in site.data.sitetext.en.technologies.list %}
   <div class="technologies-row">

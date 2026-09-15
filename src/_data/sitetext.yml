@@ -23,6 +23,7 @@ en: &DEFAULT_EN
   header:
     title: "AWS & GCP Cloud Platforms for Startups"
     subtitle: "I help post-seed startups turn MVP infrastructure into secure, scalable, production-ready cloud platforms."
+    location: "Based in Poland · Working with startups globally · Europe · Israel · USA"
     keywords: "AWS · GCP · Kubernetes · Terraform · CI/CD · Cloud Architecture"
     closing: "From architecture and infrastructure-as-code to production deployment — without building a DevOps team from scratch."
     button2: See how I work
@@ -107,12 +108,14 @@ en: &DEFAULT_EN
   positioning:
     title: "I don't do Everything-DevOps-as-a-service"
     section: positioning
-    lead: "You don't need another person to maintain a backlog of infrastructure tickets."
-    body:
-      - "You need someone who can understand the application, make the architectural decisions, build the platform and establish the engineering standards around it."
-      - "I take the <b>ownership of the Cloud and DevOps segment</b> of your product to offload this from the CTO and Engineering leadership so that you can focus on the product and business growth rather than infrastructure and DevOps issues."
-      - "The best advantage is that we agree the scope before engagement, so you know exactly what you are getting and how much it will cost. No surprises, no open-ended engagements. No hiring, no onboarding, no technical interviews."
-      - "Collaboration is simple, fast and transparent."
+    lead: "I fix your cloud and devops problems even if you don't know about them yet."
+    body: |
+      You don't need another person to maintain a backlog of infrastructure tickets.<br>
+      You need someone who can understand the application, make the architectural decisions, build cloud platform and establish DevOps standards around it.<br><br>
+      Check out <a href="/case-studies">case studies</a> about the projects I have delivered and find the one that maps your state.<br><br>
+      I take the <b>ownership of the Cloud and DevOps segments</b> of your product to offload this from the CTO and Engineering leadership so that you can focus on the product and business growth rather than infrastructure and DevOps issues.<br><br>
+      The best advantage is that we agree the scope before engagement, so you know exactly what you are getting and how much it will cost. No surprises, no open-ended engagements. No hiring, no onboarding, no technical interviews.<br><br>
+      Collaboration is simple, fast and transparent.<br>
 
   howiwork:
     title: "How I work"
@@ -149,7 +152,7 @@ en: &DEFAULT_EN
         desc: |
           Continue evolving the platform through a small expert team in Center of Excellence mode<br><br>
           At least one member of my team remains assigned to your project for ongoing support, consultations and implementation of new features.<br><br>
-          I can train your team to operate the platform independently or help you hire the right talens to support the platform in-house.<br><br>
+          I can train your team to operate the platform independently or help you hire the right talents to support the platform in-house.<br><br>
           I can build the DevOps and SRE teams along with processes for you upon implementation. 
 
   technologies:
