@@ -34,8 +34,8 @@ Enterprise customers and compliance audits (SOC 2, ISO 27001) increasingly expec
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [Cloud Migration Consulting](/cloud-migration/)
+- [AWS solutions for Startups](/aws-solutions/)
+- [Cloud Migration solutions](/cloud-migration/)
 - [Cloud Platform for Startups](/startup-cloud-platform/)
 - [Cloud Cost Optimization (FinOps)](/finops/)
 - [Post-Audit Security Remediation (SecOps)](/secops/)

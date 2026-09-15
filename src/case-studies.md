@@ -163,8 +163,8 @@ slides:
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [GCP Consulting for Startups](/gcp-consulting/)
+- [AWS Solutions for Startups](/aws-solutions/)
+- [GCP Solutions for Startups](/gcp-solutions/)
 - [Cloud Migration Consulting](/cloud-migration/)
 - [Cloud Cost Optimization (FinOps)](/finops/)
 - [Post-Audit Security Remediation (SecOps)](/secops/)

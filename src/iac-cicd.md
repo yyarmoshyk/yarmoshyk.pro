@@ -35,8 +35,8 @@ Teams who already have Terraform but have outgrown "one engineer runs apply from
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [GCP Consulting for Startups](/gcp-consulting/)
+- [AWS Solutions for Startups](/aws-solutions/)
+- [GCP Solutions for Startups](/gcp-solutions/)
 - [Cloud Platform for Startups](/startup-cloud-platform/)
 - [Cloud Cost Optimization (FinOps)](/finops/)
 - [Post-Audit Security Remediation (SecOps)](/secops/)

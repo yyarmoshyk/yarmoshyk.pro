@@ -40,8 +40,8 @@ Provider-to-provider migrations (AWS ↔ GCP), data center exits, account restru
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [GCP Consulting for Startups](/gcp-consulting/)
+- [AWS solutions for Startups](/aws-solutions/)
+- [GCP solutions for Startups](/gcp-solutions/)
 - [Cloud Platform for Startups](/startup-cloud-platform/)
 - [AWS Well-Architected Reviews](/aws-well-architected/)
 - [Infrastructure as Code & CI/CD](/iac-cicd/)

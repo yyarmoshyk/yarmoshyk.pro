@@ -1,14 +1,14 @@
 ---
 layout: page
-title: GCP Consulting for Startups
-description: "GCP consulting for startups — Google Cloud architecture, Landing Zones, GKE, Terraform infrastructure-as-code and cost optimization from a certified multi-cloud architect."
-permalink: /gcp-consulting/
+title: GCP Solutions for Startups
+description: "GCP solutions for startups — Google Cloud architecture, Landing Zones, GKE, Terraform infrastructure-as-code and cost optimization from a certified multi-cloud architect."
+permalink: /gcp-solutions/
 background: grey
 ---
 
 <div class="col-lg-10 offset-lg-1 text-center">
-	<h2 class="section-heading text-uppercase">GCP Consulting</h2>
-	<p class="lead">Google Cloud architecture and DevOps consulting for startups moving beyond the MVP.</p>
+	<h2 class="section-heading text-uppercase">GCP solutions</h2>
+	<p class="lead">Google Cloud architecture and DevOps solutions for startups moving beyond the MVP.</p>
 </div>
 
 I help startups design and build production-ready Google Cloud Platform foundations — resource hierarchy, networking, identity and Kubernetes — implemented as Terraform infrastructure-as-code your team can own going forward.
@@ -36,8 +36,8 @@ I help startups design and build production-ready Google Cloud Platform foundati
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [Cloud Migration Consulting](/cloud-migration/)
+- [AWS solutions for Startups](/aws-solutions/)
+- [Cloud Migration solutions](/cloud-migration/)
 - [Cloud Platform for Startups](/startup-cloud-platform/)
 - [AWS Well-Architected Reviews](/aws-well-architected/)
 - [Infrastructure as Code & CI/CD](/iac-cicd/)

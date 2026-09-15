@@ -35,9 +35,9 @@ CTOs and engineering leads at post-seed and growing startups who need someone to
 
 ### Related
 
-- [AWS Consulting for Startups](/aws-consulting/)
-- [GCP Consulting for Startups](/gcp-consulting/)
-- [Cloud Migration Consulting](/cloud-migration/)
+- [AWS Solutions for Startups](/aws-solutions/)
+- [GCP Solutions for Startups](/gcp-solutions/)
+- [Cloud Migration solutions](/cloud-migration/)
 - [AWS Well-Architected Reviews](/aws-well-architected/)
 - [Infrastructure as Code & CI/CD](/iac-cicd/)
 - [Cloud Cost Optimization (FinOps)](/finops/)

@@ -55,14 +55,14 @@ en: &DEFAULT_EN
         desc: "Design and build production-ready AWS and GCP foundations around the needs of your application — networking, identity, security, environments, Kubernetes, observability and automation."
         icon: fas fa-cloud #find more at https://fontawesome.com/v5/search?q=a&o=r&ic=free
         link: "/startup-cloud-platform/"
-      - title: "AWS Consulting"
+      - title: "AWS Solutions"
         desc: "Landing Zones, account structure, networking, IAM, EKS and Terraform foundations for startups building on AWS."
         icon: fab fa-aws
-        link: "/aws-consulting/"
-      - title: "GCP Consulting"
+        link: "/aws-solutions/"
+      - title: "GCP Solutions"
         desc: "Landing Zones, resource hierarchy, networking, IAM, GKE and Terraform foundations for startups building on Google Cloud."
         icon: fab fa-google
-        link: "/gcp-consulting/"
+        link: "/gcp-solutions/"
       - title: "Cloud Migrations"
         desc: "Migrate workloads into or between AWS and GCP cloud platforms with particular focus on networking, identity, data, availability and operational continuity."
         icon: fas fa-cloud-upload-alt

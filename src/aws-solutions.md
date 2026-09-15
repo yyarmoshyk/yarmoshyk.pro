@@ -1,14 +1,14 @@
 ---
 layout: page
-title: AWS Consulting for Startups
-description: "AWS consulting for post-seed and growing startups — cloud architecture, Landing Zones, Terraform infrastructure-as-code, Kubernetes and cost optimization from a certified AWS architect."
-permalink: /aws-consulting/
+title: AWS Solutions for Startups
+description: "AWS Solutions for post-seed and growing startups — cloud architecture, Landing Zones, Terraform infrastructure-as-code, Kubernetes and cost optimization from a certified AWS architect."
+permalink: /aws-solutions/
 background: grey
 ---
 
 <div class="col-lg-10 offset-lg-1 text-center">
-	<h2 class="section-heading text-uppercase">AWS Consulting</h2>
-	<p class="lead">Hands-on AWS architecture and DevOps consulting for startups scaling past their MVP.</p>
+	<h2 class="section-heading text-uppercase">AWS solutions</h2>
+	<p class="lead">Hands-on AWS architecture and DevOps solutions for startups scaling past their MVP.</p>
 </div>
 
 I work with post-seed and growing startups that need a production-ready AWS foundation — not another generalist DevOps hire. I design and build AWS Landing Zones, account structures, networking and IAM foundations, then implement them as reusable Terraform and Terragrunt infrastructure-as-code.
@@ -37,8 +37,8 @@ I work with post-seed and growing startups that need a production-ready AWS foun
 ### Related
 
 - [AWS Well-Architected Reviews](/aws-well-architected/)
-- [Cloud Migration Consulting](/cloud-migration/)
+- [Cloud Migration solutions](/cloud-migration/)
 - [Cloud Platform for Startups](/startup-cloud-platform/)
-- [GCP Consulting for Startups](/gcp-consulting/)
+- [GCP solutions for Startups](/gcp-solutions/)
 - [Infrastructure as Code & CI/CD](/iac-cicd/)
 - [Cloud Cost Optimization (FinOps)](/finops/)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-description: "Answers to common questions about working with me on AWS and GCP consulting, cloud migration, cloud cost optimization, infrastructure as code, and security remediation."
+description: "Answers to common questions about working with me on AWS and GCP solutions, cloud migration, cloud cost optimization, infrastructure as code, and security remediation."
 permalink: /faq/
 background: grey
 ---
@@ -20,7 +20,7 @@ Yes — these are most of my clients. I take ownership of the cloud platform pro
 Yes. I perform the assessment to learn what you have, clarify your goals and timeline. Next I can conclude what to keep, refactor or rebuild rather than starting from scratch by default.
 
 **Do you provide ongoing DevOps support?**
-Yes and no. I'm consultant and architect so I don't provide support myself. However I can build in-house DevOps and SRE teams for you if the capacity of my trusted engineers will not be sufficient as an ongoing Center of Excellence arrangement.
+Yes and no. I'm solutions architect and advisor so I don't provide support myself. However I can build in-house DevOps and SRE teams for you if the capacity of my trusted engineers will not be sufficient as an ongoing Center of Excellence arrangement.
 
 **Do you work remotely?**
 Yes, remotely worldwide if there is time zone coverage. I work with any startup regardless of location (except of russia).
@@ -40,18 +40,19 @@ My intellectual property is my intellectual property. The baseline is used by yo
 ### AWS & GCP
 
 **Do you work with AWS?**
-Yes — see [AWS Consulting for Startups](/aws-consulting/) for Landing Zones, networking, IAM, EKS and cost optimization.
+Yes — see [AWS Solutions for Startups](/aws-solutions/) for Landing Zones, networking, IAM, EKS and cost optimization.
 
 **Do you work with GCP?**
-Yes — see [GCP Consulting for Startups](/gcp-consulting/) for resource hierarchy, networking, IAM, GKE and cost optimization.
+Yes — see [GCP Solutions for Startups](/gcp-solutions/) for resource hierarchy, networking, IAM, GKE and cost optimization.
+
 **Do you work with AZURE?**
 No. I don't work with Azure.
 
 **Can you migrate an existing workload from AWS to GCP?**
-Yes, and the reverse too - provider-to-provider migration is one of the most common projects I run. See [Cloud Migration Consulting](/cloud-migration/).
+Yes, and the reverse too - provider-to-provider migration is one of the most common projects I run. See [Cloud Migration Solutions](/cloud-migration/).
 
 **Can you migrate an existing workload from on-prem into AWS or GCP?**
-Yes, migration is one of the most common projects I run. See [Cloud Migration Consulting](/cloud-migration/).
+Yes, migration is one of the most common projects I run. See [Cloud Migration Solutions](/cloud-migration/).
 
 **Do you run AWS Well-Architected reviews?**
 Yes — see [AWS Well-Architected Reviews](/aws-well-architected/) for a practical review scoped to your actual workload, there is WARF generic checklist but I can skip most of the topics if those are irrelevant so no stress here.
