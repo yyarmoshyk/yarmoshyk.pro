@@ -12,7 +12,7 @@ background: grey
 </div>
 
 Whether you're moving off a provider that no longer fits, consolidating after an acquisition, or finally leaving a self-managed data center, migrations fail on the details — networking, identity, data consistency and cutover sequencing, not the big architectural decisions.
-Both AWS and GCP have standardized migration frameworks:
+Both AWS and GCP have standardized migration frameworks and I work with both of them:
 - AWS MAP ([Migration Acceleration Program](https://aws.amazon.com/migration-acceleration-program/)) - Assess -> Mobilize -> Migrate & Modernize
 - GCP RaMP ([Rapid Migration & Modernization Program](https://cloud.google.com/solutions/cloud-migration-program)) - Assess -> Plan -> Migrate -> Innovate
 
