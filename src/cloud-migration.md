@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cloud Migration Consulting
-description: "Cloud migration consulting — move workloads into or between AWS and GCP with a focus on networking, identity, data and zero-drama cutovers."
+title: Cloud Migrations
+description: "Cloud migration — move workloads into or between AWS and GCP with a focus on networking, identity, data and zero-drama cutovers."
 permalink: /cloud-migration/
 background: grey
 ---
@@ -12,14 +12,19 @@ background: grey
 </div>
 
 Whether you're moving off a provider that no longer fits, consolidating after an acquisition, or finally leaving a self-managed data center, migrations fail on the details — networking, identity, data consistency and cutover sequencing, not the big architectural decisions.
+Both AWS and GCP have standardized migration frameworks:
+- AWS MAP ([Migration Acceleration Program](https://aws.amazon.com/migration-acceleration-program/)) - Assess -> Mobilize -> Migrate & Modernize
+- GCP RaMP ([Rapid Migration & Modernization Program](https://cloud.google.com/solutions/cloud-migration-program)) - Assess -> Plan -> Migrate -> Innovate
+
 
 ### What's covered
 
-- **Assessment** — inventory the current environment, dependencies and constraints before committing to an approach
-- **Target architecture** — design the destination AWS or GCP environment around your application's actual needs, not a lift-and-shift default
-- **Migration plan** — sequence workloads to minimize downtime and risk, with rollback paths defined up front
-- **Execution** — lead the migration directly, or work alongside your engineering team
-- **Cutover & validation** — confirm the new environment holds up under real traffic before decommissioning the old one
+- **Assessment** — inventory the current environment, dependencies and constraints before committing to an approach.
+- **Target architecture** — design the destination AWS or GCP environment around your application's actual needs, not a lift-and-shift default.
+- **Migration plan** — sequence workloads to minimize downtime and risk, with rollback paths defined up front.
+- **Execution** — lead the migration directly, or work alongside your engineering team.
+- **[Infrastructure as Code & CI/CD](/iac-cicd/)** - the target infrastructure is automated with terragrunt/terraform and CI/CD pipelines to manage the resources.
+- **Cutover & validation** — confirm the new environment holds up under real traffic before decommissioning the old one.
 
 ### Common triggers I've handled
 
