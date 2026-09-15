@@ -21,8 +21,8 @@ carousels:
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "AWS & GCP Cloud Platforms for Startups"
-    subtitle: "I help post-seed startups turn MVP infrastructure into secure, scalable, production-ready cloud platforms."
+    title: "Fractional Cloud Architect for Startups"
+    subtitle: "I build AWS & GCP cloud platforms for post-seed startups, turning MVP infrastructure into secure, scalable, production-ready environments."
     location: "Based in Poland · Working with startups globally · Europe · Israel · USA"
     keywords: "AWS · GCP · Kubernetes · Terraform · CI/CD · Cloud Architecture"
     closing: "From architecture and infrastructure-as-code to production deployment — without building a DevOps team from scratch."
