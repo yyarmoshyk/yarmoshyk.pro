@@ -8,7 +8,7 @@ background: grey
 
 <div class="col-lg-10 offset-lg-1 text-center">
 	<h2 class="section-heading text-uppercase">SecOps</h2>
-	<p class="lead">You got the audit report. Now what?</p>
+	<p class="lead">You've just got the audit report. What to do with it?</p>
 </div>
 
 A security audit report is a list of findings, not a fix. Most teams get the PDF, agree it's important, and then struggle to translate it into actual infrastructure and process changes — especially when the findings span IAM, networking, logging and application configuration across AWS and GCP. I take the report and turn it into remediated infrastructure.

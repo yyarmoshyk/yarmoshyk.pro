@@ -216,11 +216,20 @@ a:not(.btn):hover {
     background: #fff;
     border: 1px solid #dee2e6;
     border-radius: 8px;
-    padding: 30px 34px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .case-slider__slide {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 34px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(24px);
+    transition: opacity 0.35s ease, transform 0.35s ease, visibility 0s linear 0.35s;
 }
 .case-slider__slide h3 {
     margin-top: 0;
@@ -253,20 +262,28 @@ a:not(.btn):hover {
     border-radius: 100%;
     background: #dee2e6;
     cursor: pointer;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+.case-slider__dot:hover {
+    background: #adb5bd;
+    transform: scale(1.2);
 }
 .case-slider__arrow-pair {
     display: none;
 }
 .case-slider__arrow {
     position: absolute;
-    top: 50%;
-    margin-top: -18px;
+    top: 192px;
     height: 36px;
     width: 36px;
     border-radius: 100%;
     background: #007bff;
     cursor: pointer;
     z-index: 2;
+    transition: background 0.2s ease;
+}
+.case-slider__arrow:hover {
+    background: #0056b3;
 }
 .case-slider__arrow::before {
     content: "";
@@ -295,7 +312,11 @@ a:not(.btn):hover {
 }
 {% for n in (1..20) %}
 .case-slider__radio:nth-of-type({{ n }}):checked ~ .case-slider__track .case-slider__slide:nth-of-type({{ n }}) {
-    display: block;
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: opacity 0.35s ease 0.05s, transform 0.35s ease 0.05s, visibility 0s linear 0s;
 }
 .case-slider__radio:nth-of-type({{ n }}):checked ~ .case-slider__nav .case-slider__dot:nth-of-type({{ n }}) {
     background: #007bff;
@@ -309,7 +330,7 @@ a:not(.btn):hover {
     .case-slider {
         padding: 0 40px;
     }
-    .case-slider__track {
+    .case-slider__slide {
         padding: 22px 20px;
     }
 }
