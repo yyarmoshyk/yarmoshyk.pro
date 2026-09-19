@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AWS Solutions for Startups
-description: "AWS Solutions for post-seed and growing startups — cloud architecture, Landing Zones, Terraform infrastructure-as-code, Kubernetes and cost optimization from a certified AWS architect."
+description: "AWS Solutions for post-seed and growing startups — cloud architecture, Landing Zones, Terraform infrastructure-as-code, Kubernetes and cost optimization from an AWS Certified Solutions Architect – Professional."
 permalink: /aws-solutions/
 background: grey
 ---
@@ -24,7 +24,9 @@ I work with post-seed and growing startups that need a production-ready AWS foun
 
 ### Why work with me
 
-17+ years of engineering experience, most of it solving AWS production problems the hard way — migrations, incidents, scaling pains. I bring that into repeatable patterns instead of ad-hoc fixes, and I take ownership of the cloud platform problem so your engineering team can focus on the product.
+**10 years of real-world production experience with AWS**, backed by the [AWS Certified Solutions Architect – Professional](https://www.credly.com/badges/ef9c978b-109c-4015-af44-5c301e9f75fa/public_url) certification — AWS's top-tier architecture credential.
+
+14 years as a systems and DevOps engineer, most of it solving AWS production problems the hard way — migrations, incidents, scaling pains. I bring that into repeatable patterns instead of ad-hoc fixes, and I take ownership of the cloud platform problem so your engineering team can focus on the product.
 
 <div class="text-center" style="margin-top:40px;">
   <a class="btn btn-primary btn-xl js-scroll-trigger" href="/#contact">Talk about your AWS platform</a>

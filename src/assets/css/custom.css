@@ -200,6 +200,44 @@ a:not(.btn):hover {
     text-decoration: underline;
 }
 
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto 40px;
+}
+.certifications__badge {
+    display: block;
+    max-width: 200px;
+    text-decoration: none !important;
+    transition: transform 0.2s ease;
+}
+.certifications__badge:hover {
+    transform: translateY(-4px);
+}
+.certifications__badge img {
+    display: block;
+    margin: 0 auto 10px;
+}
+.certifications__label {
+    display: block;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #6c757d;
+}
+.certifications__badge:hover .certifications__label {
+    color: #007bff;
+}
+@media (max-width: 575px) {
+    .certifications {
+        gap: 28px;
+    }
+}
+
 .case-slider {
     position: relative;
     max-width: 850px;

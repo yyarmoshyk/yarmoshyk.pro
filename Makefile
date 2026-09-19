@@ -12,7 +12,7 @@ build-profile:
 	docker run --platform linux/amd64 --name jekyll-build --rm -v "${PWD}/public:/myblog/public" -v "${PWD}/src:/myblog" yyarmoshyk/agency-jekyll-theme:ruby-2.5.1 /bin/bash -c "cd /myblog; bundle; bundle exec jekyll build --profile -d public"
 
 run:
-	docker run --platform linux/amd64 --name jekyll-run --rm -v "${PWD}/src:/myblog" -v "${PWD}/public:/myblog/public" -p 4000:4000 yyarmoshyk/agency-jekyll-theme:ruby-2.5.1
+	docker run --platform linux/amd64 --name jekyll-run --rm -d -v "${PWD}/src:/myblog" -v "${PWD}/public:/myblog/public" -p 4000:4000 yyarmoshyk/agency-jekyll-theme:ruby-2.5.1 /bin/bash -c "cd /myblog; bundle; bundle exec jekyll serve -d public --host 0.0.0.0 --watch"
 
 run-nginx:
 	docker run --name jekyll-nginx --rm -v "${PWD}/public:/usr/share/nginx/html" -d -p 80:80 nginx
