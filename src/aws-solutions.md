@@ -11,7 +11,9 @@ background: grey
 	<p class="lead">Hands-on AWS architecture and DevOps solutions for startups scaling past their MVP.</p>
 </div>
 
-I work with post-seed and growing startups that need a production-ready AWS foundation — not another generalist DevOps hire. I design and build AWS Landing Zones, account structures, networking and IAM foundations, then implement them as reusable Terraform and Terragrunt infrastructure-as-code.
+I work with post-seed and growing startups that need a production-ready AWS foundation — not another generalist DevOps hire. 
+
+I design and lead the implemetation of production-ready `AWS Landing Zones`, account structures, networking and IAM foundations and Kubernetes as reusable Terraform and Terragrunt infrastructure-as-code and provide consultations about your existing setup.
 
 ### What I help with on AWS
 

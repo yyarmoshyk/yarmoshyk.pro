@@ -11,7 +11,7 @@ background: grey
 	<p class="lead">Google Cloud architecture and DevOps solutions for startups moving beyond the MVP.</p>
 </div>
 
-I help startups design and build production-ready Google Cloud Platform foundations — resource hierarchy, networking, identity and Kubernetes — implemented as Terraform infrastructure-as-code your team can own going forward.
+I design and lead the implemetation of production-ready `Google Cloud Platform` — resource hierarchy, networking, identity and Kubernetes — implemented as Terraform infrastructure-as-code and provide consultations about your existing setup.
 
 ### What I help with on GCP
 
