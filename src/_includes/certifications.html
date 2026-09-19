@@ -1,0 +1,20 @@
+<!-- Certification badges. Pass only="aws" or only="gcp" to show a single badge. -->
+<div class="certifications">
+  {% unless include.only == "gcp" %}
+  <a class="certifications__badge" href="https://www.credly.com/badges/ef9c978b-109c-4015-af44-5c301e9f75fa/public_url" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/certifications/aws-sa-professional.png' | relative_url }}"
+         alt="AWS Certified Solutions Architect – Professional"
+         width="120" height="120">
+    <span class="certifications__label">AWS Certified<br>Solutions Architect &ndash; Professional</span>
+  </a>
+  {% endunless %}
+  {% unless include.only == "aws" %}
+  <a class="certifications__badge" href="https://www.credly.com/badges/3f6c1893-8c42-4e4d-bd64-78e7d694e868/public_url" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/certifications/gcp-professional-cloud-architect.png' | relative_url }}"
+         alt="Google Cloud Certified – Professional Cloud Architect"
+         width="120" height="120">
+    <span class="certifications__label">Google Cloud Certified<br>Professional Cloud Architect</span>
+  </a>
+  {% endunless %}
+</div>
+<!-- End Certification badges -->
